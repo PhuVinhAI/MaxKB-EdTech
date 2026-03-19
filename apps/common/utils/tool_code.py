@@ -5,9 +5,15 @@ import getpass
 import gzip
 import json
 import os
-import pwd
+try:
+    import pwd
+except ImportError:
+    pwd = None
 import random
-import resource
+try:
+    import resource
+except ImportError:
+    resource = None
 import socket
 import subprocess
 import sys
