@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -502,7 +501,7 @@ msgstr "Dữ liệu biểu mẫu"
 msgid ""
 "Parameter value error: The uploaded document lacks file_id, and the document "
 "upload fails"
-msgstr ""
+msgstr "Lỗi giá trị tham số: Dữ liệu tải lên thiếu file_id hoặc tải lên thất bại."
 "Lỗi giá trị tham số: Tài liệu đã tải lên thiếu file_id, và việc tải lên tài "
 "liệu bị lỗi"
 
@@ -510,7 +509,7 @@ msgstr ""
 msgid ""
 "Parameter value error: The uploaded image lacks file_id, and the image "
 "upload fails"
-msgstr ""
+msgstr "Lỗi giá trị tham số: Dữ liệu tải lên thiếu file_id hoặc tải lên thất bại."
 "Lỗi giá trị tham số: Hình ảnh đã tải lên thiếu file_id, và việc tải lên hình "
 "ảnh bị lỗi"
 
@@ -518,7 +517,7 @@ msgstr ""
 msgid ""
 "Parameter value error: The uploaded audio lacks file_id, and the audio "
 "upload fails."
-msgstr ""
+msgstr "Lỗi giá trị tham số: Dữ liệu tải lên thiếu file_id hoặc tải lên thất bại."
 "Lỗi giá trị tham số: Âm thanh đã tải lên thiếu file_id, và việc tải lên âm "
 "thanh bị lỗi."
 
@@ -714,7 +713,7 @@ msgstr "Tệp âm thanh không thể để trống"
 msgid ""
 "Parameter value error: The uploaded audio lacks file_id, and the audio "
 "upload fails"
-msgstr ""
+msgstr "Lỗi giá trị tham số: Dữ liệu tải lên thiếu file_id hoặc tải lên thất bại."
 "Lỗi giá trị tham số: Âm thanh đã tải lên thiếu file_id, và việc tải lên âm "
 "thanh bị lỗi"
 
@@ -728,7 +727,7 @@ msgstr "Nội dung văn bản"
 msgid ""
 "Sorry, no relevant content was found. Please re-describe your problem or "
 "provide more information. "
-msgstr ""
+msgstr "Xin lỗi, không tìm thấy nội dung liên quan. Vui lòng mô tả lại vấn đề hoặc cung cấp thêm thông tin."
 "Xin lỗi, không tìm thấy nội dung liên quan. Vui lòng mô tả lại vấn đề của "
 "bạn hoặc cung cấp thêm thông tin. "
 
@@ -1004,7 +1003,7 @@ msgstr "ID không gian làm việc"
 msgid ""
 "The community version supports up to 5 applications. If you need more "
 "applications, please contact us (https://fit2cloud.com/)."
-msgstr ""
+msgstr "Phiên bản cộng đồng hỗ trợ tối đa 5 Agent. Nếu bạn cần nhiều Agent hơn, vui lòng liên hệ với chúng tôi (https://fit2cloud.com/)."
 "Phiên bản cộng đồng hỗ trợ tối đa 5 Agent. Nếu bạn cần Agent nhiều hơn, vui "
 "lòng liên hệ với chúng tôi (https://fit2cloud.com/)."
 
@@ -1262,7 +1261,7 @@ msgstr "ID đoạn văn"
 msgid ""
 "The paragraph id is wrong. The current conversation record does not exist. "
 "[{paragraph_id}] paragraph id"
-msgstr ""
+msgstr "ID đoạn văn bị sai. Bản ghi cuộc hội thoại hiện tại không tồn tại. ID đoạn văn [{paragraph_id}]."
 "ID đoạn văn sai. Bản ghi cuộc hội thoại hiện tại không tồn tại. "
 "[{paragraph_id}] ID đoạn văn"
 
@@ -2018,7 +2017,7 @@ msgstr "Cài đặt hiển thị"
 #: apps/models_provider/impl/anthropic_model_provider/credential/image.py:16
 #: apps/models_provider/impl/anthropic_model_provider/credential/llm.py:75
 msgid "API Key"
-msgstr ""
+msgstr "Khóa API"
 
 #: apps/common/constants/permission_constants.py:665
 msgid "Public settings"
@@ -2379,7 +2378,7 @@ msgstr "Loại này chỉ hỗ trợ tối ưu hóa (optimization)|trả về tr
 #: apps/knowledge/serializers/document.py:187
 #: apps/knowledge/serializers/document.py:351
 msgid "hit handling method"
-msgstr "phương thức xử lý hit"
+msgstr "phương thức xử lý kết quả khớp"
 
 #: apps/knowledge/serializers/document.py:118
 #: apps/knowledge/serializers/document.py:189
@@ -2533,7 +2532,7 @@ msgstr "Tiêu đề phần (tùy chọn)"
 #: apps/knowledge/serializers/document.py:675
 msgid ""
 "Section content (required, question answer, no more than 4096 characters)"
-msgstr ""
+msgstr "Nội dung phần (bắt buộc, câu hỏi và câu trả lời, không quá 4096 ký tự)."
 "Nội dung phần (bắt buộc, câu hỏi và câu trả lời, không quá 4096 ký tự)"
 
 #: apps/knowledge/serializers/document.py:676
@@ -2691,7 +2690,7 @@ msgstr "phạm vi"
 msgid ""
 "The community version supports up to 50 knowledge bases. If you need more "
 "knowledge bases, please contact us (https://fit2cloud.com/)."
-msgstr ""
+msgstr "Phiên bản cộng đồng hỗ trợ tối đa 50 cơ sở kiến thức. Nếu bạn cần nhiều hơn, vui lòng liên hệ với chúng tôi (https://fit2cloud.com/)."
 "Phiên bản cộng đồng hỗ trợ tối đa 50 cơ sở kiến thức. Nếu bạn cần nhiều hơn, vui lòng liên hệ với chúng tôi (https://fit2cloud.com/)."
 
 #: apps/knowledge/serializers/knowledge.py:560
@@ -3392,20 +3391,20 @@ msgid ""
 "With the GTE-Rerank text sorting series model developed by Alibaba Tongyi "
 "Lab, developers can integrate high-quality text retrieval and sorting "
 "through the LlamaIndex framework."
-msgstr ""
+msgstr "Mô hình phân loại văn bản GTE-Rerank được phát triển bởi Alibaba Tongyi Lab, tích hợp truy xuất văn bản chất lượng cao."
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/aliyun_bai_lian_model_provider.py:45
 msgid ""
 "Chinese (including various dialects such as Cantonese), English, Japanese, "
 "and Korean support free switching between multiple languages."
-msgstr ""
+msgstr "Tiếng Trung (bao gồm các phương ngôn như tiếng Quảng Đông), tiếng Anh, tiếng Nhật và tiếng Hàn hỗ trợ chuyển đổi tự do giữa nhiều ngôn ngữ."
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/aliyun_bai_lian_model_provider.py:48
 msgid ""
 "CosyVoice is based on a new generation of large generative speech models, "
 "which can predict emotions, intonation, rhythm, etc. based on context, and "
 "has better anthropomorphic effects."
-msgstr ""
+msgstr "CosyVoice dựa trên thế hệ mô hình ngôn ngữ tạo giọng nói mới, có khả năng dự đoán cảm xúc, ngữ điệu, nhịp điệu... dựa trên ngữ cảnh và có hiệu ứng giống người hơn."
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/aliyun_bai_lian_model_provider.py:51
 msgid ""
@@ -3413,7 +3412,7 @@ msgid ""
 "model based on the LLM base. It provides high-level vector services for "
 "multiple mainstream languages around the world and helps developers quickly "
 "convert text data into high-quality vector data."
-msgstr ""
+msgstr "Vectơ văn bản phổ quát là mô hình vectơ thống nhất đa ngôn ngữ của Phòng thí nghiệm Tongyi, hỗ trợ biểu diễn văn bản trong hơn 80 ngôn ngữ."
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/aliyun_bai_lian_model_provider.py:69
 msgid ""
@@ -3422,7 +3421,7 @@ msgid ""
 "pictures for reference content or reference style migration. Key styles "
 "include but are not limited to watercolor, oil painting, Chinese painting, "
 "sketch, flat illustration, two-dimensional, and 3D. Cartoon."
-msgstr ""
+msgstr "Tongyi Wanxiang (Thông Nghĩa Vạn Tượng) - mô hình hình ảnh lớn hỗ trợ nhập văn bản song ngữ Trung-Anh và chuyển đổi phong cách đa dạng."
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/aliyun_bai_lian_model_provider.py:95
 msgid "Alibaba Cloud Bailian"
@@ -3807,63 +3806,63 @@ msgstr "Âm thanh tiếng Trung có thể hỗ trợ các cảnh hỗn hợp ti�
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:26
 msgid "Long Xiaochun"
-msgstr ""
+msgstr "Long Hiểu Xuân"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:27
 msgid "Long Xiaoxia"
-msgstr ""
+msgstr "Long Hiểu Hạ"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:28
 msgid "Long Xiaochen"
-msgstr ""
+msgstr "Long Hiểu Thần"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:29
 msgid "Long Xiaobai"
-msgstr ""
+msgstr "Long Hiểu Bạch"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:30
 msgid "Long Laotie"
-msgstr ""
+msgstr "Long Lão Thiết"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:31
 msgid "Long Shu"
-msgstr ""
+msgstr "Long Thụ"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:32
 msgid "Long Shuo"
-msgstr ""
+msgstr "Long Thuyết"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:33
 msgid "Long Jing"
-msgstr ""
+msgstr "Long Tĩnh"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:34
 msgid "Long Miao"
-msgstr ""
+msgstr "Long Miêu"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:35
 msgid "Long Yue"
-msgstr ""
+msgstr "Long Nguyệt"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:36
 msgid "Long Yuan"
-msgstr ""
+msgstr "Long Nguyên"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:37
 msgid "Long Fei"
-msgstr ""
+msgstr "Long Phi"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:38
 msgid "Long Jielidou"
-msgstr ""
+msgstr "Long Kết Lị Đậu"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:39
 msgid "Long Tong"
-msgstr ""
+msgstr "Long Đồng"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:40
 msgid "Long Xiang"
-msgstr ""
+msgstr "Long Tương"
 
 #: apps/models_provider/impl/aliyun_bai_lian_model_provider/credential/tts.py:47
 msgid "Speaking speed"
@@ -3962,14 +3961,14 @@ msgid ""
 "An update to Claude 2 that doubles the context window and improves "
 "reliability, hallucination rates, and evidence-based accuracy in long "
 "documents and RAG contexts."
-msgstr ""
+msgstr "Bản cập nhật cho Claude 2 giúp gấp đôi cửa sổ ngữ cảnh và cải thiện khả năng suy luận cũng như logic của mô hình."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:43
 msgid ""
 "Anthropic is a powerful model that can handle a variety of tasks, from "
 "complex dialogue and creative content generation to detailed command "
 "obedience."
-msgstr ""
+msgstr "Anthropic là một mô hình mạnh mẽ có thể xử lý nhiều tác vụ khác nhau, từ đối thoại phức tạp và tạo nội dung sáng tạo đến tuân thủ các câu lệnh chi tiết."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:50
 msgid ""
@@ -3978,7 +3977,7 @@ msgid ""
 "quickly. Customers will be able to build seamless AI experiences that mimic "
 "human interactions. Claude 3 Haiku can process images and return text "
 "output, and provides 200K context windows."
-msgstr ""
+msgstr "Claude 3 Haiku là mô hình nhanh nhất và nhỏ gọn nhất của Anthropic, với khả năng tương tác gần như con người. Claude 3 Haiku có thể xử lý hình ảnh và trả về văn bản."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:57
 msgid ""
@@ -3987,21 +3986,21 @@ msgid ""
 "workloads. This model offers maximum utility while being priced lower than "
 "competing products, and it's been engineered to be a solid choice for "
 "deploying AI at scale."
-msgstr ""
+msgstr "Mô hình Claude 3 Sonnet của Anthropic đạt được sự cân bằng lý tưởng giữa trí tuệ và tốc độ—đặc biệt đối với các khối lượng công việc của doanh nghiệp. Nó mang lại hiệu suất mạnh mẽ cho các suy luận phức tạp, sáng tạo nội dung và phản hồi nhanh."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:64
 msgid ""
 "The Claude 3.5 Sonnet raises the industry standard for intelligence, "
 "outperforming competing models and the Claude 3 Opus in extensive "
 "evaluations, with the speed and cost-effectiveness of our mid-range models."
-msgstr ""
+msgstr "Claude 3.5 Sonnet nâng cao tiêu chuẩn ngành về trí tuệ, vượt trội hơn các mô hình cạnh tranh và cả Claude 3 Opus trong các bài kiểm tra đánh giá diện rộng. Nó xuất sắc trong suy luận sắc thái, lập trình phức tạp và viết lách sáng tạo trôi chảy."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:71
 msgid ""
 "A faster, more affordable but still very powerful model that can handle a "
 "range of tasks including casual conversation, text analysis, summarization "
 "and document question answering."
-msgstr ""
+msgstr "Một mô hình nhanh hơn, giá cả phải chăng hơn nhưng vẫn rất mạnh mẽ, có thể xử lý nhiều tác vụ bao gồm hội thoại thông thường, phân tích văn bản, tóm tắt và hỏi đáp tài liệu."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:78
 msgid ""
@@ -4010,7 +4009,7 @@ msgid ""
 "enterprise applications. With its cutting-edge features, it delivers greater "
 "accuracy and outstanding results, making it an excellent choice for "
 "organizations looking for a top-notch text processing solution."
-msgstr ""
+msgstr "Titan Text Premier là mô hình mạnh mẽ và tiên tiến nhất trong dòng Titan Text, được thiết kế để mang lại hiệu suất vượt trội cho nhiều ứng dụng doanh nghiệp. Với các tính năng tiên tiến, nó mang lại độ chính xác cao hơn và kết quả xuất sắc."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:85
 msgid ""
@@ -4018,7 +4017,7 @@ msgid ""
 "tuning English-language tasks, including summarization and copywriting, "
 "where customers require smaller, more cost-effective, and highly "
 "customizable models."
-msgstr ""
+msgstr "Amazon Titan Text Lite là mô hình nhẹ, hiệu quả, lý tưởng để tinh chỉnh các tác vụ tiếng Anh, bao gồm tóm tắt và viết quảng cáo, phù hợp cho khách hàng yêu cầu mô hình tiết kiệm chi phí."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:91
 msgid ""
@@ -4027,40 +4026,40 @@ msgid ""
 "ended text generation and conversational chat, as well as support in "
 "retrieval-augmented generation (RAG). At launch, the model is optimized for "
 "English, but other languages are supported."
-msgstr ""
+msgstr "Amazon Titan Text Express có độ dài ngữ cảnh lên tới 8.000 token, lý tưởng cho nhiều tác vụ ngôn ngữ chung cấp cao, chẳng hạn như tạo văn bản mở và hội thoại, cũng như hỗ trợ (RAG)."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:97
 msgid ""
 "7B dense converter for rapid deployment and easy customization. Small in "
 "size yet powerful in a variety of use cases. Supports English and code, as "
 "well as 32k context windows."
-msgstr ""
+msgstr "Bộ chuyển đổi mật độ 7B để triển khai nhanh chóng và tùy chỉnh dễ dàng. Nhỏ gọn nhưng mạnh mẽ trong nhiều trường hợp sử dụng. Hỗ trợ tiếng Anh và mã nguồn, cũng như cửa sổ ngữ cảnh 32k."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:103
 msgid ""
 "Advanced Mistral AI large-scale language model capable of handling any "
 "language task, including complex multilingual reasoning, text understanding, "
 "transformation, and code generation."
-msgstr ""
+msgstr "Mô hình ngôn ngữ quy mô lớn Mistral AI tiên tiến có khả năng xử lý mọi tác vụ ngôn ngữ, bao gồm suy luận đa ngôn ngữ phức tạp, hiểu văn bản và tạo mã."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:109
 msgid ""
 "Ideal for content creation, conversational AI, language understanding, R&D, "
 "and enterprise applications"
-msgstr ""
+msgstr "Lý tưởng cho việc sáng tạo nội dung, AI hội thoại, hiểu ngôn ngữ, R&D và các ứng dụng doanh nghiệp."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:115
 msgid ""
 "Ideal for limited computing power and resources, edge devices, and faster "
 "training times."
-msgstr ""
+msgstr "Lý tưởng cho các thiết bị biên, tài nguyên tính toán hạn chế và thời gian huấn luyện nhanh hơn."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/aws_bedrock_model_provider.py:123
 msgid ""
 "Titan Embed Text is the largest embedding model in the Amazon Titan Embed "
 "series and can handle various text embedding tasks, such as text "
 "classification, text similarity calculation, etc."
-msgstr ""
+msgstr "Titan Embed Text là mô hình nhúng lớn nhất trong dòng Amazon Titan Embed và có thể xử lý các tác vụ nhúng văn bản như phân loại văn bản, tính toán độ tương đồng văn bản, v.v."
 
 #: apps/models_provider/impl/aws_bedrock_model_provider/credential/embedding.py:28
 #: apps/models_provider/impl/aws_bedrock_model_provider/credential/llm.py:47
@@ -4086,7 +4085,7 @@ msgid ""
 "Try out the different sounds (Alloy, Echo, Fable, Onyx, Nova, and Sparkle) "
 "to find one that suits your desired tone and audience. The current voiceover "
 "is optimized for English."
-msgstr ""
+msgstr "Hãy thử các âm thanh khác nhau (Alloy, Echo, Fable, Onyx, Nova và Sparkle) để tìm giọng nói phù hợp nhất."
 
 #: apps/models_provider/impl/deepseek_model_provider/deepseek_model_provider.py:24
 msgid "Good at common conversational tasks, supports 32K contexts"
@@ -4149,40 +4148,40 @@ msgid ""
 "Llama 2 is a set of pretrained and fine-tuned generative text models ranging "
 "in size from 7 billion to 70 billion. This is a repository of 7B pretrained "
 "models. Links to other models can be found in the index at the bottom."
-msgstr ""
+msgstr "Llama 2 là một bộ mô hình văn bản huấn luyện sẵn và tinh chỉnh có kích thước từ 7 tỷ đến 70 tỷ tham số."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:60
 msgid ""
 "Llama 2 is a set of pretrained and fine-tuned generative text models ranging "
 "in size from 7 billion to 70 billion. This is a repository of 13B pretrained "
 "models. Links to other models can be found in the index at the bottom."
-msgstr ""
+msgstr "Llama 2 là một bộ mô hình văn bản huấn luyện sẵn và tinh chỉnh có kích thước từ 7 tỷ đến 70 tỷ tham số."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:64
 msgid ""
 "Llama 2 is a set of pretrained and fine-tuned generative text models ranging "
 "in size from 7 billion to 70 billion. This is a repository of 70B pretrained "
 "models. Links to other models can be found in the index at the bottom."
-msgstr ""
+msgstr "Llama 2 là một bộ mô hình văn bản huấn luyện sẵn và tinh chỉnh có kích thước từ 7 tỷ đến 70 tỷ tham số."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:68
 msgid ""
 "Since the Chinese alignment of Llama2 itself is weak, we use the Chinese "
 "instruction set to fine-tune meta-llama/Llama-2-13b-chat-hf with LoRA so "
 "that it has strong Chinese conversation capabilities."
-msgstr ""
+msgstr "Do khả năng căn chỉnh tiếng Trung của Llama2 còn yếu, chúng tôi sử dụng tập lệnh tiếng Trung để tinh chỉnh mô hình nhằm tăng cường khả năng hội thoại tiếng Trung."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:72
 msgid ""
 "Meta Llama 3: The most capable public product LLM to date. 8 billion "
 "parameters."
-msgstr ""
+msgstr "Meta Llama 3: Mô hình ngôn ngữ lớn (LLM) công khai có khả năng tốt nhất hiện nay."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:76
 msgid ""
 "Meta Llama 3: The most capable public product LLM to date. 70 billion "
 "parameters."
-msgstr ""
+msgstr "Meta Llama 3: Mô hình ngôn ngữ lớn (LLM) công khai có khả năng tốt nhất hiện nay."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:80
 msgid ""
@@ -4190,7 +4189,7 @@ msgid ""
 "the model's alignment with human preferences and its multi-language "
 "processing capabilities. Models of all sizes support a context length of "
 "32768 tokens. 500 million parameters."
-msgstr ""
+msgstr "So với các phiên bản trước, Qwen 1.5 đã tăng cường đáng kể khả năng căn chỉnh với sở thích của con người và khả năng xử lý đa ngôn ngữ. Hỗ trợ ngữ cảnh 32k token."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:84
 msgid ""
@@ -4198,7 +4197,7 @@ msgid ""
 "the model's alignment with human preferences and its multi-language "
 "processing capabilities. Models of all sizes support a context length of "
 "32768 tokens. 1.8 billion parameters."
-msgstr ""
+msgstr "So với các phiên bản trước, Qwen 1.5 đã tăng cường đáng kể khả năng căn chỉnh với sở thích của con người và khả năng xử lý đa ngôn ngữ. Hỗ trợ ngữ cảnh 32k token."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:88
 msgid ""
@@ -4206,7 +4205,7 @@ msgid ""
 "model's alignment with human preferences and its multi-language processing "
 "capabilities. Models of all sizes support a context length of 32768 tokens. "
 "4 billion parameters."
-msgstr ""
+msgstr "So với các phiên bản trước, Qwen 1.5 đã tăng cường đáng kể khả năng căn chỉnh với sở thích của con người và khả năng xử lý đa ngôn ngữ. Hỗ trợ ngữ cảnh 32k token."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:93
 msgid ""
@@ -4214,7 +4213,7 @@ msgid ""
 "model's alignment with human preferences and its multi-language processing "
 "capabilities. Models of all sizes support a context length of 32768 tokens. "
 "7 billion parameters."
-msgstr ""
+msgstr "So với các phiên bản trước, Qwen 1.5 đã tăng cường đáng kể khả năng căn chỉnh với sở thích của con người và khả năng xử lý đa ngôn ngữ. Hỗ trợ ngữ cảnh 32k token."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:97
 msgid ""
@@ -4222,7 +4221,7 @@ msgid ""
 "model's alignment with human preferences and its multi-language processing "
 "capabilities. Models of all sizes support a context length of 32768 tokens. "
 "14 billion parameters."
-msgstr ""
+msgstr "So với các phiên bản trước, Qwen 1.5 đã tăng cường đáng kể khả năng căn chỉnh với sở thích của con người và khả năng xử lý đa ngôn ngữ. Hỗ trợ ngữ cảnh 32k token."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:101
 msgid ""
@@ -4230,7 +4229,7 @@ msgid ""
 "model's alignment with human preferences and its multi-language processing "
 "capabilities. Models of all sizes support a context length of 32768 tokens. "
 "32 billion parameters."
-msgstr ""
+msgstr "So với các phiên bản trước, Qwen 1.5 đã tăng cường đáng kể khả năng căn chỉnh với sở thích của con người và khả năng xử lý đa ngôn ngữ. Hỗ trợ ngữ cảnh 32k token."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:105
 msgid ""
@@ -4238,7 +4237,7 @@ msgid ""
 "model's alignment with human preferences and its multi-language processing "
 "capabilities. Models of all sizes support a context length of 32768 tokens. "
 "72 billion parameters."
-msgstr ""
+msgstr "So với các phiên bản trước, Qwen 1.5 đã tăng cường đáng kể khả năng căn chỉnh với sở thích của con người và khả năng xử lý đa ngôn ngữ. Hỗ trợ ngữ cảnh 32k token."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:109
 msgid ""
@@ -4246,20 +4245,20 @@ msgid ""
 "the model's alignment with human preferences and its multi-language "
 "processing capabilities. Models of all sizes support a context length of "
 "32768 tokens. 110 billion parameters."
-msgstr ""
+msgstr "So với các phiên bản trước, Qwen 1.5 đã tăng cường đáng kể khả năng căn chỉnh với sở thích của con người và khả năng xử lý đa ngôn ngữ. Hỗ trợ ngữ cảnh 32k token."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:153
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:193
 msgid ""
 "Phi-3 Mini is Microsoft's 3.8B parameter, lightweight, state-of-the-art open "
 "model."
-msgstr ""
+msgstr "Phi-3 Mini là mô hình mở 3.8B tham số nhẹ, tiên tiến nhất của Microsoft."
 
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:162
 #: apps/models_provider/impl/ollama_model_provider/ollama_model_provider.py:197
 msgid ""
 "A high-performance open embedding model with a large token context window."
-msgstr ""
+msgstr "Mô hình nhúng (embedding) mở hiệu suất cao với cửa sổ ngữ cảnh token lớn."
 
 #: apps/models_provider/impl/openai_model_provider/credential/tti.py:16
 #: apps/models_provider/impl/siliconCloud_model_provider/credential/tti.py:16
@@ -4267,7 +4266,7 @@ msgid ""
 "The image generation endpoint allows you to create raw images based on text "
 "prompts. When using the DALL·E 3, the image size can be 1024x1024, 1024x1792 "
 "or 1792x1024 pixels."
-msgstr ""
+msgstr "Cổng tạo hình ảnh cho phép bạn tạo các hình ảnh thô dựa trên các gợi ý văn bản khi sử dụng DALL·E 3."
 
 #: apps/models_provider/impl/openai_model_provider/credential/tti.py:29
 #: apps/models_provider/impl/siliconCloud_model_provider/credential/tti.py:29
@@ -4277,7 +4276,7 @@ msgid ""
 "can set quality: \"hd\" to enhance detail. Square, standard quality images "
 "are generated fastest.\n"
 "        "
-msgstr ""
+msgstr "Cổng tạo hình ảnh cho phép bạn tạo các hình ảnh thô dựa trên các gợi ý văn bản khi sử dụng DALL·E 3."
 
 #: apps/models_provider/impl/openai_model_provider/credential/tti.py:44
 #: apps/models_provider/impl/siliconCloud_model_provider/credential/tti.py:44
@@ -4285,80 +4284,80 @@ msgid ""
 "You can use DALL·E 3 to request 1 image at a time (requesting more images by "
 "issuing parallel requests), or use DALL·E 2 with the n parameter to request "
 "up to 10 images at a time."
-msgstr ""
+msgstr "Cổng tạo hình ảnh cho phép bạn tạo các hình ảnh thô dựa trên các gợi ý văn bản khi sử dụng DALL·E 3."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:35
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:119
 #: apps/models_provider/impl/siliconCloud_model_provider/siliconCloud_model_provider.py:118
 msgid "The latest gpt-3.5-turbo, updated with OpenAI adjustments"
-msgstr ""
+msgstr "Phiên bản gpt-3.5-turbo mới nhất, được cập nhật theo các điều chỉnh của OpenAI."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:38
 msgid "Latest gpt-4, updated with OpenAI adjustments"
-msgstr ""
+msgstr "Phiên bản gpt-4 mới nhất, được cập nhật theo các điều chỉnh của OpenAI."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:40
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:99
 msgid ""
 "The latest GPT-4o, cheaper and faster than gpt-4-turbo, updated with OpenAI "
 "adjustments"
-msgstr ""
+msgstr "Phiên bản GPT-4o mới nhất, rẻ hơn và nhanh hơn gpt-4-turbo, được cập nhật theo các điều chỉnh của OpenAI."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:43
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:102
 msgid ""
 "The latest gpt-4o-mini, cheaper and faster than gpt-4o, updated with OpenAI "
 "adjustments"
-msgstr ""
+msgstr "Phiên bản GPT-4o mới nhất, rẻ hơn và nhanh hơn gpt-4-turbo, được cập nhật theo các điều chỉnh của OpenAI."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:46
 msgid "The latest gpt-4-turbo, updated with OpenAI adjustments"
-msgstr ""
+msgstr "Phiên bản gpt-4-turbo mới nhất, được cập nhật theo các điều chỉnh của OpenAI."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:49
 msgid "The latest gpt-4-turbo-preview, updated with OpenAI adjustments"
-msgstr ""
+msgstr "Phiên bản gpt-4-turbo mới nhất, được cập nhật theo các điều chỉnh của OpenAI."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:53
 msgid ""
 "gpt-3.5-turbo snapshot on January 25, 2024, supporting context length 16,385 "
 "tokens"
-msgstr ""
+msgstr "Bản chụp (snapshot) gpt-3.5-turbo, hỗ trợ độ dài ngữ cảnh 16.385 token."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:57
 msgid ""
 "gpt-3.5-turbo snapshot on November 6, 2023, supporting context length 16,385 "
 "tokens"
-msgstr ""
+msgstr "Bản chụp (snapshot) gpt-3.5-turbo, hỗ trợ độ dài ngữ cảnh 16.385 token."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:61
 msgid ""
 "[Legacy] gpt-3.5-turbo snapshot on June 13, 2023, will be deprecated on June "
 "13, 2024"
-msgstr ""
+msgstr "Bản chụp (snapshot) gpt-3.5-turbo, hỗ trợ độ dài ngữ cảnh 16.385 token."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:65
 msgid ""
 "gpt-4o snapshot on May 13, 2024, supporting context length 128,000 tokens"
-msgstr ""
+msgstr "Phiên bản GPT-4o mới nhất, rẻ hơn và nhanh hơn gpt-4-turbo, được cập nhật theo các điều chỉnh của OpenAI."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:69
 msgid ""
 "gpt-4-turbo snapshot on April 9, 2024, supporting context length 128,000 "
 "tokens"
-msgstr ""
+msgstr "Bản chụp (snapshot) gpt-4-turbo, hỗ trợ độ dài ngữ cảnh 128.000 token."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:72
 msgid ""
 "gpt-4-turbo snapshot on January 25, 2024, supporting context length 128,000 "
 "tokens"
-msgstr ""
+msgstr "Bản chụp (snapshot) gpt-4-turbo, hỗ trợ độ dài ngữ cảnh 128.000 token."
 
 #: apps/models_provider/impl/openai_model_provider/openai_model_provider.py:75
 msgid ""
 "gpt-4-turbo snapshot on November 6, 2023, supporting context length 128,000 "
 "tokens"
-msgstr ""
+msgstr "Bản chụp (snapshot) gpt-4-turbo, hỗ trợ độ dài ngữ cảnh 128.000 token."
 
 #: apps/models_provider/impl/tencent_cloud_model_provider/tencent_cloud_model_provider.py:58
 msgid "Tencent Cloud"
@@ -4480,7 +4479,7 @@ msgstr "Độ phân giải hình ảnh được tạo"
 
 #: apps/models_provider/impl/tencent_model_provider/credential/tti.py:50
 msgid "If not transmitted, the default value is 768:768."
-msgstr ""
+msgstr "Nếu không được truyền dữ liệu, giá trị mặc định là 768:768."
 
 #: apps/models_provider/impl/tencent_model_provider/tencent_model_provider.py:38
 msgid ""
@@ -4490,27 +4489,21 @@ msgid ""
 "complex mathematical capabilities, support for function call, and "
 "application focus optimization in fields such as multi-language translation, "
 "finance, law, and medical care"
-msgstr ""
-"The most effective version of the current hybrid model, the trillion-level "
-"parameter scale MOE-32K long article model. Reaching the absolute leading "
-"level on various benchmarks, with complex instructions and reasoning, "
-"complex mathematical capabilities, support for function call, and "
-"agent focus optimization in fields such as multi-language translation, "
-"finance, law, and medical care"
+msgstr "Phiên bản hiệu quả nhất của mô hình hybrid hiện tại, mô hình bài báo dài MOE-32K với quy mô nghìn tỷ tham số. Đạt mức dẫn đầu tuyệt đối trên nhiều tiêu chuẩn đánh giá khác nhau, với các hướng dẫn và suy luận phức tạp, khả năng toán học phức tạp, hỗ trợ gọi hàm (function call) và tối ưu hóa trọng tâm vào Agent trong các lĩnh vực như dịch thuật đa ngôn ngữ, tài chính, luật và chăm sóc y tế."
 
 #: apps/models_provider/impl/tencent_model_provider/tencent_model_provider.py:45
 msgid ""
 "A better routing strategy is adopted to simultaneously alleviate the "
 "problems of load balancing and expert convergence. For long articles, the "
 "needle-in-a-haystack index reaches 99.9%"
-msgstr ""
+msgstr "Chiến lược định tuyến tốt hơn được áp dụng để đồng thời giảm bớt các vấn đề về cân bằng tải và hội tụ chuyên gia."
 
 #: apps/models_provider/impl/tencent_model_provider/tencent_model_provider.py:51
 msgid ""
 "Upgraded to MOE structure, the context window is 256k, leading many open "
 "source models in multiple evaluation sets such as NLP, code, mathematics, "
 "industry, etc."
-msgstr ""
+msgstr "Được nâng cấp lên cấu trúc MOE, cửa sổ ngữ cảnh là 256k, dẫn đầu nhiều mô hình mã nguồn mở trong nhiều bộ đánh giá."
 
 #: apps/models_provider/impl/tencent_model_provider/tencent_model_provider.py:57
 msgid ""
@@ -4518,14 +4511,14 @@ msgid ""
 "launched by Hunyuan's official fine-tuning training, is based on the Hunyuan "
 "model combined with the role-playing scene data set for additional training, "
 "and has better basic effects in role-playing scenes."
-msgstr ""
+msgstr "Mô hình Hunyuan (Hỗn Nguyên) của Tencent với kiến trúc MOE, hỗ trợ Function Call và tạo mã nguồn chất lượng cao."
 
 #: apps/models_provider/impl/tencent_model_provider/tencent_model_provider.py:63
 msgid ""
 "Hunyuan's latest MOE architecture FunctionCall model has been trained with "
 "high-quality FunctionCall data and has a context window of 32K, leading in "
 "multiple dimensions of evaluation indicators."
-msgstr ""
+msgstr "Mô hình Hunyuan (Hỗn Nguyên) của Tencent với kiến trúc MOE, hỗ trợ Function Call và tạo mã nguồn chất lượng cao."
 
 #: apps/models_provider/impl/tencent_model_provider/tencent_model_provider.py:69
 msgid ""
@@ -4536,13 +4529,13 @@ msgid ""
 "generation in the five major languages; the five major languages In the "
 "manual high-quality evaluation of 10 comprehensive code tasks that consider "
 "all aspects, the performance is in the first echelon."
-msgstr ""
+msgstr "Mô hình Hunyuan (Hỗn Nguyên) của Tencent với kiến trúc MOE, hỗ trợ Function Call và tạo mã nguồn chất lượng cao."
 
 #: apps/models_provider/impl/tencent_model_provider/tencent_model_provider.py:77
 msgid ""
 "Tencent's Hunyuan Embedding interface can convert text into high-quality "
 "vector data. The vector dimension is 1024 dimensions."
-msgstr ""
+msgstr "Mô hình Hunyuan (Hỗn Nguyên) của Tencent với kiến trúc MOE, hỗ trợ Function Call và tạo mã nguồn chất lượng cao."
 
 #: apps/models_provider/impl/tencent_model_provider/tencent_model_provider.py:87
 msgid "Mixed element visual model"
@@ -4559,15 +4552,15 @@ msgstr "Tencent Hunyuan"
 #: apps/models_provider/impl/vllm_model_provider/vllm_model_provider.py:24
 #: apps/models_provider/impl/vllm_model_provider/vllm_model_provider.py:42
 msgid "Facebook’s 125M parameter model"
-msgstr ""
+msgstr "Mô hình 125M tham số của Facebook."
 
 #: apps/models_provider/impl/vllm_model_provider/vllm_model_provider.py:25
 msgid "BAAI’s 7B parameter model"
-msgstr ""
+msgstr "Mô hình 7B tham số của BAAI."
 
 #: apps/models_provider/impl/vllm_model_provider/vllm_model_provider.py:26
 msgid "BAAI’s 13B parameter mode"
-msgstr ""
+msgstr "Mô hình 13B tham số của BAAI."
 
 #: apps/models_provider/impl/volcanic_engine_model_provider/credential/tti.py:16
 msgid ""
@@ -4575,7 +4568,7 @@ msgid ""
 "effect will be poor and the probability of excessive delay will increase "
 "significantly. Recommended ratio and corresponding width and height before "
 "super score: width*height"
-msgstr ""
+msgstr "Nếu khoảng cách giữa chiều rộng, chiều cao và 512 quá lớn, hiệu ứng hiển thị hình ảnh sẽ kém."
 
 #: apps/models_provider/impl/volcanic_engine_model_provider/credential/tts.py:15
 #: apps/models_provider/impl/xinference_model_provider/credential/tts.py:15
@@ -4589,7 +4582,7 @@ msgstr "tốc độ nói"
 
 #: apps/models_provider/impl/volcanic_engine_model_provider/credential/tts.py:31
 msgid "[0.2,3], the default is 1, usually one decimal place is enough"
-msgstr ""
+msgstr "[0.2, 3], mặc định là 1, thông thường một chữ số thập phân là đủ."
 
 #: apps/models_provider/impl/volcanic_engine_model_provider/volcanic_engine_model_provider.py:39
 #: apps/models_provider/impl/volcanic_engine_model_provider/volcanic_engine_model_provider.py:44
@@ -4598,27 +4591,27 @@ msgid ""
 "The user goes to the model inference page of Volcano Ark to create an "
 "inference access point. Here, you need to enter ep-xxxxxxxxxx-yyyy to call "
 "it."
-msgstr ""
+msgstr "Người dùng đi tới trang suy luận mô hình của Volcano Ark để tạo điểm truy cập suy luận."
 
 #: apps/models_provider/impl/volcanic_engine_model_provider/volcanic_engine_model_provider.py:59
 msgid "Universal 2.0-Vincent Diagram"
-msgstr ""
+msgstr "Sơ đồ Vincent"
 
 #: apps/models_provider/impl/volcanic_engine_model_provider/volcanic_engine_model_provider.py:64
 msgid "Universal 2.0Pro-Vincent Chart"
-msgstr ""
+msgstr "Biểu đồ Vincent"
 
 #: apps/models_provider/impl/volcanic_engine_model_provider/volcanic_engine_model_provider.py:69
 msgid "Universal 1.4-Vincent Chart"
-msgstr ""
+msgstr "Biểu đồ Vincent"
 
 #: apps/models_provider/impl/volcanic_engine_model_provider/volcanic_engine_model_provider.py:74
 msgid "Animation 1.3.0-Vincent Picture"
-msgstr ""
+msgstr "Hình ảnh Vincent"
 
 #: apps/models_provider/impl/volcanic_engine_model_provider/volcanic_engine_model_provider.py:79
 msgid "Animation 1.3.1-Vincent Picture"
-msgstr ""
+msgstr "Hình ảnh Vincent"
 
 #: apps/models_provider/impl/volcanic_engine_model_provider/volcanic_engine_model_provider.py:113
 msgid "volcano engine"
@@ -4627,7 +4620,7 @@ msgstr "volcano engine"
 #: apps/models_provider/impl/wenxin_model_provider/credential/llm.py:51
 #, python-brace-format
 msgid "{model_name} The model does not support"
-msgstr ""
+msgstr "Mô hình {model_name} không hỗ trợ."
 
 #: apps/models_provider/impl/wenxin_model_provider/wenxin_model_provider.py:24
 #: apps/models_provider/impl/wenxin_model_provider/wenxin_model_provider.py:53
@@ -4635,28 +4628,28 @@ msgid ""
 "ERNIE-Bot-4 is a large language model independently developed by Baidu. It "
 "covers massive Chinese data and has stronger capabilities in dialogue Q&A, "
 "content creation and generation."
-msgstr ""
+msgstr "ERNIE-Bot (Văn Tâm Nhất Ngôn) là mô hình ngôn ngữ lớn do Baidu phát triển độc lập, bao quát dữ liệu tiếng Trung khổng lồ với khả năng mạnh mẽ trong hội thoại và tạo nội dung."
 
 #: apps/models_provider/impl/wenxin_model_provider/wenxin_model_provider.py:27
 msgid ""
 "ERNIE-Bot is a large language model independently developed by Baidu. It "
 "covers massive Chinese data and has stronger capabilities in dialogue Q&A, "
 "content creation and generation."
-msgstr ""
+msgstr "ERNIE-Bot (Văn Tâm Nhất Ngôn) là mô hình ngôn ngữ lớn do Baidu phát triển độc lập, bao quát dữ liệu tiếng Trung khổng lồ với khả năng mạnh mẽ trong hội thoại và tạo nội dung."
 
 #: apps/models_provider/impl/wenxin_model_provider/wenxin_model_provider.py:30
 msgid ""
 "ERNIE-Bot-turbo is a large language model independently developed by Baidu. "
 "It covers massive Chinese data, has stronger capabilities in dialogue Q&A, "
 "content creation and generation, and has a faster response speed."
-msgstr ""
+msgstr "ERNIE-Bot (Văn Tâm Nhất Ngôn) là mô hình ngôn ngữ lớn do Baidu phát triển độc lập, bao quát dữ liệu tiếng Trung khổng lồ với khả năng mạnh mẽ trong hội thoại và tạo nội dung."
 
 #: apps/models_provider/impl/wenxin_model_provider/wenxin_model_provider.py:33
 msgid ""
 "BLOOMZ-7B is a well-known large language model in the industry. It was "
 "developed and open sourced by BigScience and can output text in 46 languages "
 "and 13 programming languages."
-msgstr ""
+msgstr "BLOOMZ-7B là mô hình ngôn ngữ lớn nổi tiếng. Được phát triển bởi BigScience, hỗ trợ 46 ngôn ngữ và 13 ngôn ngữ lập trình."
 
 #: apps/models_provider/impl/wenxin_model_provider/wenxin_model_provider.py:39
 msgid ""
@@ -4664,21 +4657,21 @@ msgid ""
 "well in scenarios such as coding, reasoning and knowledge application. "
 "Llama-2-13b-chat is a native open source version with balanced performance "
 "and effect, suitable for conversation scenarios."
-msgstr ""
+msgstr "Llama-2-13b-chat do Meta AI phát triển và mã nguồn mở. Hiệu suất cân bằng, phù hợp cho các kịch bản hội thoại."
 
 #: apps/models_provider/impl/wenxin_model_provider/wenxin_model_provider.py:42
 msgid ""
 "Llama-2-70b-chat was developed by Meta AI and is open source. It performs "
 "well in scenarios such as coding, reasoning, and knowledge application. "
 "Llama-2-70b-chat is a native open source version with high-precision effects."
-msgstr ""
+msgstr "Llama-2-70b-chat do Meta AI phát triển và mã nguồn mở với hiệu ứng độ chính xác cao."
 
 #: apps/models_provider/impl/wenxin_model_provider/wenxin_model_provider.py:45
 msgid ""
 "The Chinese enhanced version developed by the Qianfan team based on "
 "Llama-2-7b has performed well on Chinese knowledge bases such as CMMLU and C-"
 "EVAL."
-msgstr ""
+msgstr "Phiên bản tăng cường tiếng Trung được phát triển bởi nhóm Qianfan dựa trên Llama-2-7b."
 
 #: apps/models_provider/impl/wenxin_model_provider/wenxin_model_provider.py:49
 msgid ""
@@ -4690,7 +4683,7 @@ msgid ""
 "representations based on input content. You can call this interface to input "
 "text into the model and obtain the corresponding vector representation for "
 "subsequent text processing and analysis."
-msgstr ""
+msgstr "Embedding-V1 là mô hình biểu diễn văn bản dựa trên công nghệ Baidu Wenxin, chuyển đổi văn bản thành vector để truy xuất thông tin và khai thác tri thức."
 
 #: apps/models_provider/impl/wenxin_model_provider/wenxin_model_provider.py:66
 msgid "Thousand sails large model"
@@ -4708,31 +4701,31 @@ msgstr "Người nói (Speaker)"
 msgid ""
 "Speaker, optional value: Please go to the console to add a trial or purchase "
 "speaker. After adding, the speaker parameter value will be displayed."
-msgstr ""
+msgstr "Người nói (Speaker), giá trị tùy chọn: Vui lòng vào bảng điều khiển để thêm dùng thử hoặc mua thêm giọng đọc."
 
 #: apps/models_provider/impl/xf_model_provider/credential/tts.py:21
 msgid "iFlytek Xiaoyan"
-msgstr ""
+msgstr "iFlytek Tiểu Yến"
 
 #: apps/models_provider/impl/xf_model_provider/credential/tts.py:22
 msgid "iFlytek Xujiu"
-msgstr ""
+msgstr "iFlytek Hứa Cửu"
 
 #: apps/models_provider/impl/xf_model_provider/credential/tts.py:23
 msgid "iFlytek Xiaoping"
-msgstr ""
+msgstr "iFlytek Tiểu Bình"
 
 #: apps/models_provider/impl/xf_model_provider/credential/tts.py:24
 msgid "iFlytek Xiaojing"
-msgstr ""
+msgstr "iFlytek Tiểu Tĩnh"
 
 #: apps/models_provider/impl/xf_model_provider/credential/tts.py:25
 msgid "iFlytek Xuxiaobao"
-msgstr ""
+msgstr "iFlytek Hứa Tiểu Bảo"
 
 #: apps/models_provider/impl/xf_model_provider/credential/tts.py:28
 msgid "Speech speed, optional value: [0-100], default is 50"
-msgstr ""
+msgstr "Tốc độ nói, giá trị tùy chọn: [0-100], mặc định là 50."
 
 #: apps/models_provider/impl/xf_model_provider/xf_model_provider.py:39
 #: apps/models_provider/impl/xf_model_provider/xf_model_provider.py:50
@@ -4748,20 +4741,20 @@ msgid ""
 "The image generation endpoint allows you to create raw images based on text "
 "prompts. The dimensions of the image can be 1024x1024, 1024x1792, or "
 "1792x1024 pixels."
-msgstr ""
+msgstr "Cổng tạo hình ảnh cho phép bạn tạo các hình ảnh dựa trên các gợi ý văn bản. Độ phân giải 1024x1024, 1024x1792 hoặc 1792x1024."
 
 #: apps/models_provider/impl/xinference_model_provider/credential/tti.py:29
 msgid ""
 "By default, images are generated in standard quality, you can set quality: "
 "\"hd\" to enhance detail. Square, standard quality images are generated "
 "fastest."
-msgstr ""
+msgstr "Mặc định hình ảnh được tạo ở chất lượng tiêu chuẩn, bạn có thể chọn "hd" để tăng chi tiết."
 
 #: apps/models_provider/impl/xinference_model_provider/credential/tti.py:42
 msgid ""
 "You can request 1 image at a time (requesting more images by making parallel "
 "requests), or up to 10 images at a time using the n parameter."
-msgstr ""
+msgstr "Bạn có thể yêu cầu 1 hình ảnh mỗi lần hoặc tối đa 10 hình ảnh bằng tham số n."
 
 #: apps/models_provider/impl/xinference_model_provider/credential/tts.py:20
 msgid "Chinese female"
@@ -4794,7 +4787,7 @@ msgstr "Nữ (tiếng Hàn)"
 #: apps/models_provider/impl/xinference_model_provider/xinference_model_provider.py:37
 msgid ""
 "Code Llama is a language model specifically designed for code generation."
-msgstr ""
+msgstr "Code Llama là mô hình ngôn ngữ được thiết kế chuyên biệt cho việc tạo và hiểu mã nguồn."
 
 #: apps/models_provider/impl/xinference_model_provider/xinference_model_provider.py:44
 msgid ""
@@ -4802,69 +4795,69 @@ msgid ""
 "Code Llama Instruct is a fine-tuned version of Code Llama's instructions, "
 "designed to perform specific tasks.\n"
 "        "
-msgstr ""
+msgstr "Code Llama là mô hình ngôn ngữ được thiết kế chuyên biệt cho việc tạo và hiểu mã nguồn."
 
 #: apps/models_provider/impl/xinference_model_provider/xinference_model_provider.py:53
 msgid ""
 "Code Llama Python is a language model specifically designed for Python code "
 "generation."
-msgstr ""
+msgstr "Code Llama là mô hình ngôn ngữ được thiết kế chuyên biệt cho việc tạo và hiểu mã nguồn."
 
 #: apps/models_provider/impl/xinference_model_provider/xinference_model_provider.py:60
 msgid ""
 "CodeQwen 1.5 is a language model for code generation with high performance."
-msgstr ""
+msgstr "CodeQwen 1.5 là mô hình ngôn ngữ tạo mã nguồn hiệu suất cao."
 
 #: apps/models_provider/impl/xinference_model_provider/xinference_model_provider.py:67
 msgid "CodeQwen 1.5 Chat is a chat model version of CodeQwen 1.5."
-msgstr ""
+msgstr "CodeQwen 1.5 là mô hình ngôn ngữ tạo mã nguồn hiệu suất cao."
 
 #: apps/models_provider/impl/xinference_model_provider/xinference_model_provider.py:74
 msgid "Deepseek is a large-scale language model with 13 billion parameters."
-msgstr ""
+msgstr "Deepseek là mô hình ngôn ngữ quy mô lớn với 13 tỷ tham số."
 
 #: apps/models_provider/impl/zhipu_model_provider/credential/tti.py:16
 msgid ""
 "Image size, only cogview-3-plus supports this parameter. Optional range: "
 "[1024x1024,768x1344,864x1152,1344x768,1152x864,1440x720,720x1440], the "
 "default is 1024x1024."
-msgstr ""
+msgstr "Kích thước hình ảnh, chỉ cogview-3-plus hỗ trợ tham số này."
 
 #: apps/models_provider/impl/zhipu_model_provider/zhipu_model_provider.py:34
 msgid ""
 "Have strong multi-modal understanding capabilities. Able to understand up to "
 "five images simultaneously and supports video content understanding"
-msgstr ""
+msgstr "Có khả năng hiểu đa phương thức mạnh mẽ. Hiểu đồng thời tối đa 5 hình ảnh và video."
 
 #: apps/models_provider/impl/zhipu_model_provider/zhipu_model_provider.py:37
 msgid ""
 "Focus on single picture understanding. Suitable for scenarios requiring "
 "efficient image analysis"
-msgstr ""
+msgstr "Tập trung vào hiểu một hình ảnh duy nhất. Thích hợp cho phân tích hình ảnh hiệu quả."
 
 #: apps/models_provider/impl/zhipu_model_provider/zhipu_model_provider.py:40
 msgid ""
 "Focus on single picture understanding. Suitable for scenarios requiring "
 "efficient image analysis (free)"
-msgstr ""
+msgstr "Tập trung vào hiểu một hình ảnh duy nhất. Thích hợp cho phân tích hình ảnh hiệu quả."
 
 #: apps/models_provider/impl/zhipu_model_provider/zhipu_model_provider.py:46
 msgid ""
 "Quickly and accurately generate images based on user text descriptions. "
 "Resolution supports 1024x1024"
-msgstr ""
+msgstr "Tạo hình ảnh nhanh chóng và chính xác dựa trên văn bản. Hỗ trợ 1024x1024."
 
 #: apps/models_provider/impl/zhipu_model_provider/zhipu_model_provider.py:49
 msgid ""
 "Generate high-quality images based on user text descriptions, supporting "
 "multiple image sizes"
-msgstr ""
+msgstr "Tạo hình ảnh chất lượng cao dựa trên mô tả văn bản, hỗ trợ nhiều kích thước."
 
 #: apps/models_provider/impl/zhipu_model_provider/zhipu_model_provider.py:52
 msgid ""
 "Generate high-quality images based on user text descriptions, supporting "
 "multiple image sizes (free)"
-msgstr ""
+msgstr "Tạo hình ảnh chất lượng cao dựa trên mô tả văn bản, hỗ trợ nhiều kích thước."
 
 #: apps/models_provider/impl/zhipu_model_provider/zhipu_model_provider.py:75
 msgid "zhipu AI"
@@ -6703,7 +6696,7 @@ msgstr "Tên người dùng phải dài từ 4-64 ký tự"
 msgid ""
 "The password must be 6-20 characters long and must be a combination of "
 "letters, numbers, and special characters."
-msgstr ""
+msgstr "Mật khẩu phải dài từ 6-20 ký tự và phải là sự kết hợp của chữ cái, số và ký tự đặc biệt."
 "Mật khẩu phải dài từ 6-20 ký tự và phải là sự kết hợp của "
 "chữ cái, chữ số và các ký tự đặc biệt."
 
@@ -6715,7 +6708,7 @@ msgstr "Email hoặc tên người dùng"
 msgid ""
 "The community version supports up to 2 users. If you need more users, please "
 "contact us (https://fit2cloud.com/)."
-msgstr ""
+msgstr "Phiên bản cộng đồng hỗ trợ tối đa 2 người dùng. Nếu bạn cần thêm, vui lòng liên hệ chúng tôi."
 "Phiên bản cộng đồng hỗ trợ tối đa 2 người dùng. Nếu bạn cần thêm người dùng, vui lòng "
 "liên hệ với chúng tôi (https://fit2cloud.com/)."
 
@@ -6743,7 +6736,7 @@ msgstr "Nhập lại mật khẩu"
 msgid ""
 "The confirmation password must be 6-20 characters long and must be a "
 "combination of letters, numbers, and special characters."
-msgstr ""
+msgstr "Mật khẩu xác nhận phải dài từ 6-20 ký tự và là sự kết hợp của chữ cái, số và ký tự đặc biệt."
 "Mật khẩu xác nhận phải dài từ 6-20 ký tự và phải là sự "
 "kết hợp của chữ cái, chữ số và các ký tự đặc biệt."
 
@@ -6787,7 +6780,7 @@ msgstr "Không gửi lại email trong vòng {seconds} giây"
 msgid ""
 "The email service has not been set up. Please contact the administrator to "
 "set up the email service in [Email Settings]."
-msgstr ""
+msgstr "Dịch vụ email chưa được thiết lập. Vui lòng liên hệ với quản trị viên để thiết lập trong [Cài đặt Email]."
 "Dịch vụ email chưa được thiết lập. Vui lòng liên hệ với quản trị viên để "
 "thiết lập dịch vụ email trong [Cài đặt Email]."
 
@@ -7634,7 +7627,7 @@ msgstr "Dừng"
 msgid ""
 "Thinking about 【{question}】...If you want me to continue answering, please "
 "reply {trigger_message}"
-msgstr ""
+msgstr "Đang suy nghĩ về 【{question}】... Nếu bạn muốn tôi tiếp tục trả lời, vui lòng phản hồi {trigger_message}"
 "Đang suy nghĩ về 【{question}】... Nếu bạn muốn tôi tiếp tục trả lời, vui lòng "
 "phản hồi {trigger_message}"
 
@@ -7643,7 +7636,7 @@ msgid ""
 "\n"
 " ------------\n"
 "[To be continued, reply \"Continue to answer the question]"
-msgstr ""
+msgstr "Để tiếp tục, hãy trả lời "{trigger_message}" để tôi hoàn thành câu trả lời."
 "\n"
 " ------------\n"
 "[Còn tiếp, phản hồi \"Tiếp tục trả lời câu hỏi\"]"
@@ -7653,7 +7646,7 @@ msgstr ""
 msgid ""
 "To be continued, reply \"{trigger_message}\" to continue answering the "
 "question"
-msgstr ""
+msgstr "Để tiếp tục, hãy trả lời "{trigger_message}" để tôi hoàn thành câu trả lời."
 "Còn tiếp, phản hồi \"{trigger_message}\" để tiếp tục trả lời câu hỏi"
 
 #: apps/xpack/serializers/channel/wechat.py:143
@@ -7667,7 +7660,7 @@ msgstr "Tài khoản chính thức WeChat: {account}"
 msgid ""
 "The app does not enable the speech-to-text function or the speech-to-text "
 "function fails."
-msgstr ""
+msgstr "Ứng dụng chưa bật chức năng chuyển giọng nói thành văn bản hoặc chức năng này bị lỗi."
 "Ứng dụng không bật chức năng chuyển giọng nói thành văn bản hoặc chức năng này "
 "bị lỗi."
 
@@ -9201,4 +9194,4 @@ msgid "Document does not belong to current knowledge"
 msgstr "Tài liệu không thuộc về tri thức hiện tại"
 
 msgid "Move an application"
-msgstr "Move an application"
+msgstr "Di chuyển Agent"
