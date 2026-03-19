@@ -1,47 +1,47 @@
 export default {
-  title: 'User',
-  createUser: 'Create User',
-  editUser: 'Edit User',
-  roleSetting: 'Role Setting',
-  addRole: 'Add role',
+  title: 'Người dùng',
+  createUser: 'Tạo người dùng',
+  editUser: 'Sửa người dùng',
+  roleSetting: 'Cài đặt vai trò',
+  addRole: 'Thêm vai trò',
   setting: {
-    updatePwd: 'Change Password',
+    updatePwd: 'Đổi mật khẩu',
   },
   tip: {
     professionalMessage:
-      'The community edition supports up to 2 users. For more users, please upgrade to the professional edition.',
-    updatePwdSuccess: 'User password updated successfully',
+      'Phiên bản cộng đồng hỗ trợ tối đa 2 người dùng. Để có thêm người dùng, vui lòng nâng cấp lên phiên bản chuyên nghiệp.',
+    updatePwdSuccess: 'Đã cập nhật mật khẩu người dùng thành công',
   },
   delete: {
-    confirmTitle: 'Confirm deletion of user:',
+    confirmTitle: 'Xác nhận xóa người dùng:',
     confirmMessage:
-      'Deleting this user will also not delete all resources (agent, knowledge, models) created by this user. Please proceed with caution.',
+      'Xóa người dùng này sẽ không xóa tất cả các tài nguyên (agent, kiến thức, mô hình) do người dùng này tạo ra. Vui lòng thận trọng.',
   },
   disabled: {
-    confirmTitle: 'Confirm disable tool:',
+    confirmTitle: 'Xác nhận vô hiệu hóa công cụ:',
     confirmMessage:
-      'Disabling this tool will cause errors when agent that reference it are queried. Please proceed with caution.',
+      'Vô hiệu hóa công cụ này sẽ gây ra lỗi khi các agent tham chiếu nó được truy vấn. Vui lòng thận trọng.',
   },
   userForm: {
     nick_name: {
-      label: 'Name',
-      placeholder: 'Please enter name',
-      lengthMessage: 'Length must be between 2 and 20 characters',
+      label: 'Tên hiển thị',
+      placeholder: 'Vui lòng nhập tên',
+      lengthMessage: 'Độ dài phải từ 2 đến 20 ký tự',
     },
     phone: {
-      label: 'Phone',
-      placeholder: 'Please enter phone',
-      invalidMessage: 'Invalid phone format',
+      label: 'Điện thoại',
+      placeholder: 'Vui lòng nhập số điện thoại',
+      invalidMessage: 'Định dạng số điện thoại không hợp lệ',
     },
   },
   source: {
-    label: 'Source',
-    local: 'System User',
-    localCreate: 'Local Create',
+    label: 'Nguồn',
+    local: 'Người dùng hệ thống',
+    localCreate: 'Tạo cục bộ',
     wecom: 'WeCom',
     lark: 'Lark',
     dingtalk: 'DingTalk',
   },
-  settingRole: 'Set Role',
-  defaultPassword: 'Default Password',
+  settingRole: 'Đặt vai trò',
+  defaultPassword: 'Mật khẩu mặc định',
 }

@@ -1,18 +1,18 @@
 export default {
-  title: 'Workspace',
-  list: 'Workspace list',
-  name: 'Workspace name',
-  toWorkspace: 'To workspace',
+  title: 'Không gian làm việc',
+  list: 'Danh sách không gian làm việc',
+  name: 'Tên không gian làm việc',
+  toWorkspace: 'Đến không gian làm việc',
   delete: {
-    confirmTitle: 'Confirm to delete workspace:',
+    confirmTitle: 'Xác nhận xóa không gian làm việc:',
     confirmContent:
-      'After deletion, all members in this space will be removed. Please proceed with caution.',
+      'Sau khi xóa, tất cả thành viên trong không gian này sẽ bị loại bỏ. Vui lòng thận trọng.',
     confirmContentNotDelete:
-      'This workspace contains knowledge base resources and agent resources, and cannot be deleted.',
+      'Không gian làm việc này chứa tài nguyên cơ sở kiến thức và tài nguyên agent, không thể xóa.',
   },
   member: {
     delete: {
-      confirmTitle: 'Confirm to remove member:',
+      confirmTitle: 'Xác nhận loại bỏ thành viên:',
     },
   },
 }

@@ -1,34 +1,34 @@
 export default {
-  title: 'Questions',
-  createProblem: 'Create Question',
-  detailProblem: 'Question Details',
-  quickCreateProblem: 'Quick Create',
-  quickCreateName: 'question',
+  title: 'Câu hỏi',
+  createProblem: 'Tạo câu hỏi',
+  detailProblem: 'Chi tiết câu hỏi',
+  quickCreateProblem: 'Tạo nhanh',
+  quickCreateName: 'câu hỏi',
   tip: {
-    placeholder: 'Enter the question, support multiple entries, one per line.',
-    errorMessage: 'Question cannot be empty!',
-    requiredMessage: 'Please enter a question',
-    relatedSuccess: 'Successful'
+    placeholder: 'Nhập câu hỏi, hỗ trợ nhiều mục, mỗi mục một dòng.',
+    errorMessage: 'Câu hỏi không được để trống!',
+    requiredMessage: 'Vui lòng nhập một câu hỏi',
+    relatedSuccess: 'Thành công'
   },
 
   setting: {
-    batchDelete: 'Bulk Delete',
-    cancelRelated: 'Cancel Association'
+    batchDelete: 'Xóa hàng loạt',
+    cancelRelated: 'Hủy liên kết'
   },
   table: {
-    paragraph_count: 'Related Segments',
-    updateTime: 'Update Time'
+    paragraph_count: 'Các đoạn liên quan',
+    updateTime: 'Thời gian cập nhật'
   },
   delete: {
-    confirmTitle: 'Confirm deletion of question:',
-    confirmMessage1: 'Deleting this question will cancel the association of',
-    confirmMessage2: 'segments. Please proceed with caution.'
+    confirmTitle: 'Xác nhận xóa câu hỏi:',
+    confirmMessage1: 'Xóa câu hỏi này sẽ hủy liên kết của',
+    confirmMessage2: 'đoạn. Vui lòng thận trọng.'
   },
   relateParagraph: {
-    title: 'Relate to Segment',
-    selectDocument: 'Select a Document',
-    placeholder: 'Search document by name',
-    selectedParagraph: 'Selected Segments',
-    count: 'Count'
+    title: 'Liên kết với đoạn văn',
+    selectDocument: 'Chọn một tài liệu',
+    placeholder: 'Tìm kiếm tài liệu theo tên',
+    selectedParagraph: 'Các đoạn đã chọn',
+    count: 'Số lượng'
   }
 }

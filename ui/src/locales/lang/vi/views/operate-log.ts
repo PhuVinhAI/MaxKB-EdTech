@@ -1,11 +1,11 @@
 export default {
-  title: 'Operate Logs',
+  title: 'Nhật ký vận hành',
   table: {
-    menu: 'Operate Menu',
-    detail: 'Operate Details',
-    user: 'Operate User',
-    ip_address: 'IP Address',
-    opt: 'API Details',
-    operateTime: 'Operate Time',
+    menu: 'Menu vận hành',
+    detail: 'Chi tiết vận hành',
+    user: 'Người vận hành',
+    ip_address: 'Địa chỉ IP',
+    opt: 'Chi tiết API',
+    operateTime: 'Thời gian vận hành',
   },
 }

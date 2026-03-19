@@ -1,4 +1,4 @@
-import en from 'element-plus/es/locale/lang/en'
+import vi from 'element-plus/es/locale/lang/vi'
 import components from './components'
 import layout from './layout'
 import views from './views'
@@ -13,7 +13,7 @@ export default {
   views,
   theme,
   components,
-  en,
+  vi,
   common,
   dynamicsForm,
   chat,
