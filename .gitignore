@@ -190,3 +190,5 @@ apps/models_provider/impl/tencent_model_provider/model/stt.py
 tmp/
 config.yml
 .SANDBOX_BANNED_HOSTS
+# Bỏ qua thư mục tạm của Master Context
+.master-context

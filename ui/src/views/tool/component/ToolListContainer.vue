@@ -34,14 +34,6 @@
             <el-option v-for="u in user_options" :key="u.id" :value="u.id" :label="u.nick_name" />
           </el-select>
         </div>
-        <el-button
-          class="ml-8"
-          v-if="!isShared && permissionPrecise.create()"
-          @click="openToolStoreDialog()"
-        >
-          <AppIcon iconName="app-tool-store" class="mr-4" />
-          {{ $t('views.tool.toolStore.title') }}
-        </el-button>
         <el-dropdown trigger="click">
           <el-button type="primary" class="ml-8" v-if="!isShared && permissionPrecise.create()">
             {{ $t('common.create') }}
@@ -378,7 +370,6 @@
     :title="DataSourceToolDrawertitle"
   />
   <CreateFolderDialog ref="CreateFolderDialogRef" v-if="!isShared" @refresh="refreshFolder" />
-  <ToolStoreDialog ref="toolStoreDialogRef" :api-type="apiType" @refresh="refresh" />
   <AddInternalToolDialog ref="AddInternalToolDialogRef" @refresh="confirmAddInternalTool" />
   <McpToolConfigDialog ref="McpToolConfigDialogRef" @refresh="refresh" />
   <AuthorizedWorkspace
@@ -396,7 +387,6 @@
     ref="ResourceAuthorizationDrawerRef"
     v-if="apiType === 'workspace'"
   />
-  <ToolStoreDescDrawer ref="toolStoreDescDrawerRef" />
   <ResourceMappingDrawer ref="resourceMappingDrawerRef"></ResourceMappingDrawer>
   <ResourceTriggerDrawer
     ref="resourceTriggerDrawerRef"
@@ -416,16 +406,13 @@ import SkillToolFormDrawer from '@/views/tool/SkillToolFormDrawer.vue'
 import DataSourceToolFormDrawer from '@/views/tool/DataSourceToolFormDrawer.vue'
 import CreateFolderDialog from '@/components/folder-tree/CreateFolderDialog.vue'
 import AuthorizedWorkspace from '@/views/system-shared/AuthorizedWorkspaceDialog.vue'
-import ToolStoreDialog from '@/views/tool/tool-store/ToolStoreDialog.vue'
 import AddInternalToolDialog from '@/views/tool/tool-store/AddInternalToolDialog.vue'
 import MoveToDialog from '@/components/folder-tree/MoveToDialog.vue'
 import ResourceAuthorizationDrawer from '@/components/resource-authorization-drawer/index.vue'
 import McpToolConfigDialog from '@/views/tool/component/McpToolConfigDialog.vue'
 import ResourceTriggerDrawer from '@/views/trigger/ResourceTriggerDrawer.vue'
-import ToolStoreDescDrawer from '@/views/tool/component/ToolStoreDescDrawer.vue'
 import ResourceMappingDrawer from '@/components/resource_mapping/index.vue'
 import ToolRecordDrawer from '@/views/tool/execution-record/TriggerRecordDrawer.vue'
-import ToolStoreApi from '@/api/tool/store.ts'
 import { resetUrl, i18n_name } from '@/utils/common'
 import { MsgSuccess, MsgConfirm, MsgError } from '@/utils/message'
 import { SourceTypeEnum } from '@/enums/common'
@@ -556,8 +543,6 @@ function openAuthorizedWorkspaceDialog(row: any) {
   }
 }
 
-const toolStoreDescDrawerRef = ref<InstanceType<typeof ToolStoreDescDrawer>>()
-
 function openCreateDialog(data?: any) {
   // mcp工具
   if (data?.tool_type === 'MCP') {
@@ -578,18 +563,6 @@ function openCreateDialog(data?: any) {
     return
   }
 
-  // 有版本号的展示readme，是商店更新过来的
-  if (data?.version) {
-    let readMe = ''
-    storeTools.value
-      .filter((item) => item.id === data.template_id)
-      .forEach((item) => {
-        readMe = item.readMe
-      })
-    bus.emit('select_node', data.folder_id)
-    toolStoreDescDrawerRef.value?.open(readMe, data)
-    return
-  }
   // 有template_id的不允许编辑，是模板转换来的
   if (data?.template_id) {
     return
@@ -638,18 +611,6 @@ function openCreateMcpDialog(data?: any) {
 }
 
 function openCreateSkillDialog(data?: any) {
-  // 有版本号的展示readme，是商店更新过来的
-  if (data?.version) {
-    let readMe = ''
-    storeTools.value
-      .filter((item) => item.id === data.template_id)
-      .forEach((item) => {
-        readMe = item.readMe
-      })
-    bus.emit('select_node', data.folder_id)
-    toolStoreDescDrawerRef.value?.open(readMe, data)
-    return
-  }
   // 有template_id的不允许编辑，是模板转换来的
   if (data?.template_id) {
     return
@@ -864,12 +825,6 @@ function configInitParams(item: any) {
     })
 }
 
-const toolStoreDialogRef = ref<InstanceType<typeof ToolStoreDialog>>()
-
-function openToolStoreDialog() {
-  toolStoreDialogRef.value?.open(folder.currentFolder.id)
-}
-
 const AddInternalToolDialogRef = ref<InstanceType<typeof AddInternalToolDialog>>()
 
 function addInternalTool(data?: any, isEdit?: boolean) {
@@ -885,59 +840,6 @@ function confirmAddInternalTool(data?: any, isEdit?: boolean) {
         refresh()
       })
   }
-}
-
-const storeTools = ref<any[]>([])
-
-function getStoreToolList() {
-  ToolStoreApi.getStoreToolList({ name: '' }, loading).then((res: any) => {
-    storeTools.value = res.data.apps
-  })
-}
-
-function showUpdateStoreTool(item: any) {
-  for (const tool of storeTools.value) {
-    if (tool.id === item.template_id && tool.version !== item.version) {
-      item.downloadUrl = tool.downloadUrl
-      item.downloadCallbackUrl = tool.downloadCallbackUrl
-      item.icon = tool.icon
-      item.versions = tool.versions
-      item.label = tool.label
-      return true
-    }
-  }
-}
-
-function updateStoreTool(item: any) {
-  MsgConfirm(
-    t('views.tool.toolStore.confirmTip') + item.name,
-    t('views.tool.toolStore.updateStoreToolMessage'),
-    {
-      cancelButtonText: t('common.cancel'),
-      confirmButtonText: t('common.confirm'),
-    },
-  )
-    .then(() => {
-      const obj = {
-        download_url: item.downloadUrl,
-        download_callback_url: item.downloadCallbackUrl,
-        icon: item.icon,
-        versions: item.versions,
-        label: item.label,
-      }
-      loadSharedApi({ type: 'tool', systemType: apiType.value })
-        .updateStoreTool(item.id, obj, loading)
-        .then(async (res: any) => {
-          if (res?.data) {
-            tool.setToolList([])
-            return user.profile()
-          }
-        })
-        .then(() => {
-          getList()
-        })
-    })
-    .catch(() => {})
 }
 
 const elUploadRef = ref()
@@ -1062,7 +964,6 @@ onMounted(() => {
     .then((res: any) => {
       user_options.value = res.data
     })
-  getStoreToolList()
 })
 </script>
 

@@ -61,14 +61,6 @@
               <el-option :label="$t('common.status.unpublished')" value="unpublished" />
             </el-select>
           </div>
-          <el-button
-            class="ml-8"
-            v-if="permissionPrecise.create()"
-            @click="openTemplateStoreDialog()"
-          >
-            <AppIcon iconName="app-template-center" class="mr-4" />
-            {{ $t('workflow.setting.templateCenter') }}
-          </el-button>
           <el-dropdown trigger="click" v-if="permissionPrecise.create()">
             <el-button type="primary" class="ml-8">
               {{ $t('common.create') }}
@@ -321,7 +313,6 @@
       :type="SourceTypeEnum.APPLICATION"
       ref="ResourceAuthorizationDrawerRef"
     />
-    <TemplateStoreDialog ref="templateStoreDialogRef" :api-type="apiType" @refresh="getList" />
     <ResourceTriggerDrawer
       ref="resourceTriggerDrawerRef"
       :source="SourceTypeEnum.APPLICATION"
@@ -338,7 +329,6 @@ import CopyApplicationDialog from '@/views/application/component/CopyApplication
 import MoveToDialog from '@/components/folder-tree/MoveToDialog.vue'
 import ResourceAuthorizationDrawer from '@/components/resource-authorization-drawer/index.vue'
 import ResourceTriggerDrawer from '@/views/trigger/ResourceTriggerDrawer.vue'
-import TemplateStoreDialog from '@/views/application/template-store/TemplateStoreDialog.vue'
 import ApplicationApi from '@/api/application/application'
 import WorkspaceApi from '@/api/workspace/workspace'
 import { MsgSuccess, MsgConfirm, MsgError } from '@/utils/message'
@@ -727,11 +717,6 @@ function searchHandle() {
   getList()
 }
 
-const templateStoreDialogRef = ref()
-
-function openTemplateStoreDialog() {
-  templateStoreDialogRef.value?.open(folder.currentFolder.id)
-}
 
 function getList() {
   const params: any = {
