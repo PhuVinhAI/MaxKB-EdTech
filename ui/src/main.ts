@@ -1,9 +1,8 @@
 import '@/styles/index.scss'
 import ElementPlus from 'element-plus'
 import * as ElementPlusIcons from '@element-plus/icons-vue'
-import zhCn from 'element-plus/es/locale/lang/zh-cn'
+import vi from 'element-plus/es/locale/lang/vi'
 import enUs from 'element-plus/es/locale/lang/en'
-import zhTW from 'element-plus/es/locale/lang/zh-tw'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import App from './App.vue'
@@ -95,12 +94,11 @@ for (const [key, component] of Object.entries(ElementPlusIcons)) {
   app.component(key, component)
 }
 const locale_map: any = {
-  'zh-CN': zhCn,
-  'zh-Hant': zhTW,
+  vi: vi,
   'en-US': enUs,
 }
 app.use(ElementPlus, {
-  locale: locale_map[localStorage.getItem('MaxKB-locale') || navigator.language || 'en-US'],
+  locale: locale_map[localStorage.getItem('MaxKB-locale') || navigator.language || 'vi'],
 })
 app.use(directives)
 app.use(router)

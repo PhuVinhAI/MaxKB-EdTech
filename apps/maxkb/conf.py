@@ -31,7 +31,7 @@ class Config(dict):
         'LOCAL_MODEL_PROTOCOL': "http",
         'LOCAL_MODEL_HOST_WORKER': 1,
         # 语言
-        'LANGUAGE_CODE': 'zh-CN',
+        'LANGUAGE_CODE': 'vi',
         "DEBUG": False,
         # redis host
         'REDIS_HOST': '127.0.0.1',
@@ -100,7 +100,7 @@ class Config(dict):
         return redis_config
 
     def get_language_code(self):
-        return self.get('LANGUAGE_CODE', 'zh-CN')
+        return self.get('LANGUAGE_CODE', 'vi')
 
     def get_log_level(self):
         return self.get('LOG_LEVEL', 'DEBUG')

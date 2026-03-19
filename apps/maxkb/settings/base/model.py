@@ -155,8 +155,7 @@ DATA_UPLOAD_MAX_NUMBER_FILES = 1000
 # 支持的语言
 LANGUAGES = [
     ('en', 'English'),
-    ('zh', '中文简体'),
-    ('zh-hant', '中文繁体')
+    ('vi', 'Tiếng Việt')
 ]
 # 翻译文件路径
 LOCALE_PATHS = [

@@ -21,16 +21,11 @@ export const localeConfigKey = 'MaxKB-locale'
 const languages = usePreferredLanguages()
 
 export function getBrowserLang() {
-  const browserLang = navigator.language ? navigator.language : languages.value[0]
-  let defaultBrowserLang = ''
-  if (browserLang === 'zh-HK' || browserLang === 'zh-TW') {
-    defaultBrowserLang = 'zh-Hant'
-  } else if (browserLang === 'zh-CN') {
-    defaultBrowserLang = 'zh-CN'
-  } else {
-    defaultBrowserLang = 'en-US'
+  const browserLang = (navigator.language ? navigator.language : languages.value[0]) || ''
+  if (browserLang.toLowerCase().includes('en')) {
+    return 'en-US'
   }
-  return defaultBrowserLang
+  return 'vi'
 }
 
 // 生成语言模块列表
